@@ -16,20 +16,68 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 300px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    gap: 20px;
 }
 
 .intro {
+    
     color: white;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    
+    padding: 40px 300px;
+    
+    
+}
+
+.intro_img {
+    width: 600px;
+    height: 250px;
+}
+
+.intro_img img {
+    width: 600px;
+    height: 250px;
+}
+
+.intro_para {
+    width: 400px;
+    height: 250px;
+}
+
+.intro_para h1 {
+    font-size: 48px;
+}
+
+.intro_para p {
+    font-size: 18px;
+}
+.intro_para button {
+    background-color: #3882f6;
+    color: white;
+    font: 22px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border: solid #3882f6;
+    border-radius: 10%;
+
 }
 
 .random_img img {
