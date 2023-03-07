@@ -133,9 +133,29 @@ ul {
 }
 
 .action_container {
-    margin: 100px;
+    margin: 100px 150px;
     background-color: #3882f6;
     color: white;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #3882f6;
+    border-radius: 1%;
+}
+
+.call_to_action .text h3 {
+    font-size: 25px;
+}
+
+.action_container button {
+    min-width: 100px;
+    max-height: 42px;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 15%;
 }
 
 .footer {
