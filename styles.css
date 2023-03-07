@@ -114,11 +114,22 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 40px;
+    padding: 150px 300px;
 }
 
 .quote p {
     font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote .author {
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .action_container {
